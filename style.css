@@ -363,7 +363,9 @@ a {
     margin-top: 80px;
     text-align: center;
 }
-
+#choose-section-description{
+    text-align: center;
+}
 .choose-area p {
     color: rgba(19, 19, 24, 0.70);
     text-align: start;
