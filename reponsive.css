@@ -1,8 +1,9 @@
 @media (max-width:1356px) {
-    .read-more{
+    .read-more {
         margin-bottom: 30px;
     }
 }
+
 @media (max-width:1200px) and (min-width:992px) {
     .container {
         margin: 0px 40px;
@@ -16,13 +17,133 @@
     .banner-inputs {
         width: 85%;
     }
-    .popular-tour-area{
-         margin: 0 auto; 
-         width: 100%;
-         justify-content: center;     
+    
+    /* popular-tour-area related css */
+    .popular-tour-area {
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
     }
-    .read-more{
+
+    .read-more {
         margin-bottom: 30px;
+    }
+
+
+    /* destination-area related css */
+    .box-1 {
+        width: 50%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .box-1 img,
+    .box-2 img {
+        width: 98%;
+        border-radius: 16px;
+    }
+
+    .box-2 {
+        width: 50%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .maldives,
+    .indonesia,
+    .bangladesh,
+    .bandarban {
+        position: absolute;
+        top: 32%;
+        left: 35%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .kashmir,
+    .srilanka {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .north-america {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+
+    .box-3 {
+        width: 28%;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .box-3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-4 {
+        width: 40%;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .box-4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-5 {
+        width: 28%;
+        position: relative;
+    }
+
+    .box-5 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-6,
+    .box-7 {
+        width: 50%;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .box-6 img,
+    .box-7 img {
+        width: 99%;
+        height: 100%;
+    }
+
+    /* subscription area related css */
+    .subscription-area {
+        flex-wrap: wrap;
+    }
+
+    .form {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+
+    /* Footer area related css */
+    .footer-description {
+        margin-top: 30px;
     }
 }
 
@@ -31,6 +152,7 @@
         margin: 0px 10px;
     }
 
+    /* navbar-area related css */
     .logo-text p,
     .logo-text span {
         font-size: 22px;
@@ -52,6 +174,7 @@
         display: none;
     }
 
+    /* Banner area related css */
     .banner-area {
         padding: 30px 0;
         text-align: center;
@@ -84,7 +207,7 @@
     }
 
     .banner-inputs input[type=text] {
-        width: 96%;
+        width: 100%;
     }
 
     .select-time,
@@ -100,7 +223,7 @@
         height: 22px;
     }
 
-
+    /* popular-tour-area related css */
     .popular-tour-area {
         margin: 20px 0px;
         flex-direction: column;
@@ -141,5 +264,129 @@
 
     .read-more {
         margin-bottom: 30px;
+    }
+
+    /* destination-area related css */
+    .places {
+        flex-direction: column;
+    }
+
+    .places>div {
+        width: 100%;
+    }
+
+    .destination-description {
+        margin-top: 60px;
+    }
+
+    .maldives,
+    .indonesia,
+    .bangladesh,
+    .bandarban {
+        position: absolute;
+        top: 40%;
+        left: 37%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .kashmir,
+    .srilanka {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .north-america {
+        position: absolute;
+        top: 44%;
+        left: 32%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+
+    /* choose-area related css */
+    .service-category {
+        flex-wrap: wrap;
+    }
+
+    .hotel {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .hotel,
+    .service {
+        width: 100%;
+    }
+
+    .hotel img,
+    .service img {
+        width: 15%;
+    }
+
+    .pricing {
+        width: 100%;
+    }
+
+    .pricing img {
+        width: 17%;
+    }
+
+
+    /* subscription area related css */
+    .subscription-area {
+        flex-wrap: wrap;
+    }
+
+    .form {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+
+    .seal-area {
+        padding: 5px 10px;
+        bottom: 15%;
+        right: 1%;
+    }
+
+    .website-seal {
+        font-size: 14px;
+    }
+
+    .discount-seal {
+        font-size: 16px;
+    }
+
+
+    /* Footer area related css */
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin: 50px 100px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    }
+
+
+    .footer-description {
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 20px;
     }
 }
